@@ -2,7 +2,7 @@
 
 Bioinformatics Institute
 
-**Project Executor:** Anastasia Pomeranets\
+**Project Executor:** Anastasia Pomeranets
 **Project Supervisor:** Vladislav Stanin
 
 ------------------------------------------------------------------------
@@ -23,19 +23,19 @@ Overall Progress: [███████████---------------] 55%
 
 ### Completed
 
--   Download of raw RNA-seq data (SRA)\
--   Initial quality control (FastQC, MultiQC)\
--   Filtering and cleaning (fastp)\
+-   Download of raw RNA-seq data (SRA)
+-   Initial quality control (FastQC, MultiQC)
+-   Filtering and cleaning (fastp)
 -   Second quality check (FastQC, MultiQC)
 
 ### In Progress
 
--   De novo assembly (Trinity)\
+-   De novo assembly (Trinity)
 -   Assembly quality assessment (BUSCO, TransRate, DETONATE, RNAQUAST)
 
 ### Planned
 
--   Transcript annotation (EnTAP, Trinotate, InterProScan)\
+-   Transcript annotation (EnTAP, Trinotate, InterProScan)
 -   Final analysis and reporting
 
 ------------------------------------------------------------------------
@@ -44,39 +44,39 @@ Overall Progress: [███████████---------------] 55%
 
 1.  **Raw Reads**
     -   Downloaded from [NCBI BioProject PRJNA531617](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA531617)\
-    -   Referencing the article:\
+    -   Referencing the article:
         *Utilization of Tissue Ploidy Level Variation in de Novo Transcriptome Assembly of Pinus sylvestris (2019)*\
         [G3: Genes, Genomes, Genetics, 9(10), 3409–3421](https://academic.oup.com/g3journal/article/9/10/3409/6026686)
 2.  **Pipeline and Software**
-    -   **FastQC**, **MultiQC** for quality checking\
-    -   **fastp** for read trimming and adapter removal\
-    -   **Trinity** for de novo transcriptome assembly\
-    -   **BUSCO**, **TransRate**, **DETONATE**, **RNAQUAST** for assembly evaluation\
+    -   **FastQC**, **MultiQC** for quality checking
+    -   **fastp** for read trimming and adapter removal
+    -   **Trinity** for de novo transcriptome assembly
+    -   **BUSCO**, **TransRate**, **DETONATE**, **RNAQUAST** for assembly evaluation
     -   **EnTAP**, **Trinotate**, **InterProScan** for annotation
 
 ------------------------------------------------------------------------
 
 ## Requirements / Preferred Skills 🌻
 
-1.  Experience with RNA-Seq data analysis\
-2.  Transcriptome assembly skills\
-3.  Familiarity with annotation databases (GO, KEGG, etc.)\
-4.  Ability to work on high-performance computing (HPC) clusters\
-5.  Skill in interpreting bioinformatics results\
+1.  Experience with RNA-Seq data analysis
+2.  Transcriptome assembly skills
+3.  Familiarity with annotation databases (GO, KEGG, etc.)
+4.  Ability to work on high-performance computing (HPC) clusters
+5.  Skill in interpreting bioinformatics results
 6.  Data visualization and presentation abilities
 
 ------------------------------------------------------------------------
 
 ## Future Directions 🌳
 
--   Comparative analysis of **P. sylvestris** transcriptomes from different regions (if enough data become available).\
+-   Comparative analysis of **P. sylvestris** transcriptomes from different regions (if enough data become available).
 -   Investigation of transposable elements and other repeats (if time and data permit).
 
 ------------------------------------------------------------------------
 
 ### Contact
 
--   **Executor:** [Anastasia Pomeranets](mailto:anapomerash@gmail.com)\
+-   **Executor:** [Anastasia Pomeranets](mailto:anapomerash@gmail.com)
 -   **Supervisor:** [Vladislav Stanin](mailto:pochta_vlada@ochen_nado.com)
 
 > **Note**: This repository will be updated as the project progresses. Stay tuned for new information on assembly results and transcript annotations.
