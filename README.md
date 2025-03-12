@@ -1,8 +1,10 @@
 # Study of Pinus sylvestris Transcriptomic Data 🌲
 
-Bioinformatics Institute
+<img src="https://static.tildacdn.com/tild6464-3064-4237-a433-383539613333/bi_logo.png" alt="Institute of Bioinformatics Logo" width="32"/> Bioinformatics Institute
+
 
 **Project Executor:** Anastasia Pomeranets
+
 **Project Supervisor:** Vladislav Stanin
 
 ------------------------------------------------------------------------
