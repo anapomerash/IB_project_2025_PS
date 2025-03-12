@@ -1,5 +1,8 @@
 # Study of Pinus sylvestris Transcriptomic Data 🌲
 
+<img src="https://goodimages.ru/files/img/pics/el-obyknovennaia/el-obyknovennaia-31.webp" alt="Scots Pine Forest" width="100%"/>
+
+
 <img src="https://static.tildacdn.com/tild6464-3064-4237-a433-383539613333/bi_logo.png" alt="Institute of Bioinformatics Logo" width="32"/> Bioinformatics Institute
 
 
