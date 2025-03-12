@@ -29,10 +29,9 @@ Overall Progress: [███████████---------------] 55%
 -   Initial quality control (FastQC, MultiQC)
 -   Filtering and cleaning (fastp)
 -   Second quality check (FastQC, MultiQC)
+-   De novo assembly (Trinity)
 
 ### In Progress
-
--   De novo assembly (Trinity)
 -   Assembly quality assessment (BUSCO, TransRate, DETONATE, RNAQUAST)
 
 ### Planned
