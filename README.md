@@ -1,4 +1,4 @@
-# Study of Pinus sylvestris Transcriptomic Data 🌲
+# Study of _Pinus sylvestris_ Transcriptomic Data 🌲
 
 <img src="https://goodimages.ru/files/img/pics/el-obyknovennaia/el-obyknovennaia-31.webp" alt="Scots Pine Forest" width="100%"/>
 
@@ -14,7 +14,7 @@
 
 ## Project Description 🌱
 
-***Pinus sylvestris*** L. (Scots pine) is a key boreal forest species with significant ecological and economic value. However, a complete nuclear genome assembly for **P. sylvestris** is still unavailable. Previous attempts (in 2013) were unsuccessful due to technological limitations, and only the mitochondrial genome has been fully assembled to date.
+***Pinus sylvestris*** L. (Scots pine) is a key boreal forest species with significant ecological and economic value. However, a complete nuclear genome assembly for **_P. sylvestris_** is still unavailable. Previous attempts (in 2013) were unsuccessful due to technological limitations, and only the mitochondrial genome has been fully assembled to date.
 
 The goal of this project is to perform a **de novo** transcriptome assembly of ***P. sylvestris*** using publicly available RNA-seq data and to provide a comprehensive annotation of the resulting transcripts. We will move beyond traditional databases (like Gene Ontology and KEGG) by including additional resources for deeper functional analysis.
 
@@ -73,7 +73,7 @@ Overall Progress: [███████████---------------] 55%
 
 ## Future Directions 🌳
 
--   Comparative analysis of **P. sylvestris** transcriptomes from different regions (if enough data become available).
+-   Comparative analysis of **_P. sylvestris_** transcriptomes from different regions (if enough data become available).
 -   Investigation of transposable elements and other repeats (if time and data permit).
 
 ------------------------------------------------------------------------
