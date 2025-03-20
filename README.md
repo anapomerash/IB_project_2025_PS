@@ -1,13 +1,13 @@
 # Study of _Pinus sylvestris_ Transcriptomic Data 🌲
 
+![Progress](https://img.shields.io/badge/Project%20Progress-70%25-yellowgreen)
+![Made with Bash](https://img.shields.io/badge/Made%20with-Bash-blue?logo=gnubash)
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-yellow?logo=python)
+
 <img src="https://goodimages.ru/files/img/pics/el-obyknovennaia/el-obyknovennaia-31.webp" alt="Scots Pine Forest" width="100%"/>
 
 
 <img src="https://static.tildacdn.com/tild6464-3064-4237-a433-383539613333/bi_logo.png" alt="Institute of Bioinformatics Logo" width="32"/> [Bioinformatics Institute](https://bioinf.me/)
-
-![Progress](https://img.shields.io/badge/Project%20Progress-70%25-yellowgreen)
-![Made with Bash](https://img.shields.io/badge/Made%20with-Bash-blue?logo=gnubash)
-![Made with Python](https://img.shields.io/badge/Made%20with-Python-yellow?logo=python)
 
 **Project Executor:** Anastasia Pomeranets
 
