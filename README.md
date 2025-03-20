@@ -5,6 +5,9 @@
 
 <img src="https://static.tildacdn.com/tild6464-3064-4237-a433-383539613333/bi_logo.png" alt="Institute of Bioinformatics Logo" width="32"/> [Bioinformatics Institute](https://bioinf.me/)
 
+![Progress](https://img.shields.io/badge/Project%20Progress-70%25-yellowgreen)
+![Made with Bash](https://img.shields.io/badge/Made%20with-Bash-blue?logo=gnubash)
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-yellow?logo=python)
 
 **Project Executor:** Anastasia Pomeranets
 
@@ -19,28 +22,58 @@
 The goal of this project is to perform a **de novo** transcriptome assembly of ***P. sylvestris*** using publicly available RNA-seq data and to provide a comprehensive annotation of the resulting transcripts. We will move beyond traditional databases (like Gene Ontology and KEGG) by including additional resources for deeper functional analysis.
 
 ------------------------------------------------------------------------
+## Repository structure
+```
+Pinus_sylvestris_transcriptome/
+│
+├── 📁 data/
+│   ├── 📁 raw/                     
+│   ├── 📁 fastqc_before/           
+│   ├── 📁 multiqc_before/          
+│   ├── 📁 fastqc_after/            
+│   ├── 📁 multiqc_after/           
+│   ├── 📁 trinity_out/            
+│   │   └──  trinity.out
+│   ├── 📁 busco_before_cdhit/      
+│   │   └── result.txt
+│   ├── 📁 rnaquast_before_cdhit/  
+│   │   └── short_report.pdf
+│   ├── 📁 busco_after_cdhit/       
+│   │   └── result.txt
+│   └──  📁 rnaquast_after_cdhit/
+│       └── short_report.pdf
+│
+├── 📁 scripts/
+│   ├── fastp.sh
+│   ├── trinity.sh
+│   ├── busco.sh
+│   ├── rnaquast.sh
+│   └── cdhit.sh
+│
+├── README.md
+└── LICENSE
 
-## Progress Overview 🍃
+```
 
-Here is the overall progress for the entire project:
+## Project Progress 🌿
 
-Overall Progress: [███████████---------------] 55%
+| Task                                             | Status   |
+|--------------------------------------------------|----------|
+| Raw data download                                | ✅ Done  |
+| Initial QC (FastQC, MultiQC)                     | ✅ Done  |
+| Filtering and trimming (fastp)                   | ✅ Done  |
+| Second QC (FastQC, MultiQC)                      | ✅ Done  |
+| De novo assembly (Trinity)                       | ✅ Done  |
+| BUSCO analysis (before & after CD-HIT)           | ✅ Done  |
+| RNAQUAST analysis (before & after CD-HIT)        | ✅ Done  |
+| Clustering (CD-HIT)                              | ✅ Done  |
+| TransRate & DETONATE assessment                  | 🔄 In progress |
+| Transcript annotation (EnTAP, Trinotate, InterProScan) | ⏳ Planned |
+| Final reporting and poster preparation           | ⏳ Planned |
 
-### Completed
+**Overall Progress:** 70% [███████████████----------]
 
--   Download of raw RNA-seq data (SRA)
--   Initial quality control (FastQC, MultiQC)
--   Filtering and cleaning (fastp)
--   Second quality check (FastQC, MultiQC)
--   De novo assembly (Trinity)
 
-### In Progress
--   Assembly quality assessment (BUSCO, TransRate, DETONATE, RNAQUAST)
-
-### Planned
-
--   Transcript annotation (EnTAP, Trinotate, InterProScan)
--   Final analysis and reporting
 
 ------------------------------------------------------------------------
 
@@ -52,10 +85,10 @@ Overall Progress: [███████████---------------] 55%
         *Utilization of Tissue Ploidy Level Variation in de Novo Transcriptome Assembly of Pinus sylvestris (2019)*\
         [G3: Genes, Genomes, Genetics, 9(10), 3409–3421](https://academic.oup.com/g3journal/article/9/10/3409/6026686)
 2.  **Pipeline and Software**
-    -   **FastQC**, **MultiQC** for quality checking
-    -   **fastp** for read trimming and adapter removal
-    -   **Trinity** for de novo transcriptome assembly
-    -   **BUSCO**, **TransRate**, **DETONATE**, **RNAQUAST** for assembly evaluation
+    -   **FastQC v0.12.1**, **MultiQC v1.27.1** for quality checking
+    -   **fastp v0.24.0** for read trimming and adapter removal
+    -   **Trinity v2.15.1** for de novo transcriptome assembly
+    -   **BUSCO v5.8.2**, **RNAQUAST v2.3** for assembly evaluation
     -   **EnTAP**, **Trinotate**, **InterProScan** for annotation
 
 ------------------------------------------------------------------------
