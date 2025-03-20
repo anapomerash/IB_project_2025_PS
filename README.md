@@ -66,8 +66,7 @@ Pinus_sylvestris_transcriptome/
 | BUSCO analysis (before & after CD-HIT)           | ✅ Done  |
 | RNAQUAST analysis (before & after CD-HIT)        | ✅ Done  |
 | Clustering (CD-HIT)                              | ✅ Done  |
-| TransRate & DETONATE assessment                  | 🔄 In progress |
-| Transcript annotation (EnTAP, Trinotate, InterProScan) | ⏳ Planned |
+| Transcript annotation (EnTAP, Trinotate, InterProScan) | 🔄 In progress |
 | Final reporting and poster preparation           | ⏳ Planned |
 
 **Overall Progress:** 70% [███████████████----------]
