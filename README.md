@@ -27,7 +27,6 @@ The goal of this project is to perform a **de novo** transcriptome assembly of *
 Pinus_sylvestris_transcriptome/
 │
 ├── 📁 data/
-│   ├── 📁 raw/                     
 │   ├── 📁 fastqc_before/           
 │   ├── 📁 multiqc_before/          
 │   ├── 📁 fastqc_after/            
