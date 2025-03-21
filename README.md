@@ -86,6 +86,7 @@ Pinus_sylvestris_transcriptome/
     -   **FastQC v0.12.1**, **MultiQC v1.27.1** for quality checking
     -   **fastp v0.24.0** for read trimming and adapter removal
     -   **Trinity v2.15.1** for de novo transcriptome assembly
+    -   **CD-HIT v.4.8.1** for transcript clustering
     -   **BUSCO v5.8.2**, **RNAQUAST v2.3** for assembly evaluation
     -   **EnTAP**, **Trinotate**, **InterProScan** for annotation
 
