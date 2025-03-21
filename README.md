@@ -58,10 +58,8 @@ Pinus_sylvestris_transcriptome/
 
 | Task                                             | Status   |
 |--------------------------------------------------|----------|
-| Raw data download                                | ✅ Done  |
-| Initial QC (FastQC, MultiQC)                     | ✅ Done  |
+| Initial and second QC (FastQC, MultiQC)          | ✅ Done  |
 | Filtering and trimming (fastp)                   | ✅ Done  |
-| Second QC (FastQC, MultiQC)                      | ✅ Done  |
 | De novo assembly (Trinity)                       | ✅ Done  |
 | BUSCO analysis (before & after CD-HIT)           | ✅ Done  |
 | RNAQUAST analysis (before & after CD-HIT)        | ✅ Done  |
@@ -69,9 +67,7 @@ Pinus_sylvestris_transcriptome/
 | Transcript annotation (EnTAP, Trinotate, InterProScan) | 🔄 In progress |
 | Final reporting and poster preparation           | ⏳ Planned |
 
-**Overall Progress:** 70% [███████████████----------]
-
-
+**Overall Progress**: 50% [███████████---------------]
 
 ------------------------------------------------------------------------
 
@@ -112,7 +108,7 @@ Pinus_sylvestris_transcriptome/
 
 ### Contact
 
--   **Executor:** [Anastasia Pomeranets](mailto:anapomerash@gmail.com)
--   **Supervisor:** [Vladislav Stanin](mailto:pochta_vlada@ochen_nado.com)
+-   **Executor:** [Anastasia Pomeranets](https://github.com/anapomerash)
+-   **Supervisor:** [Vladislav Stanin](https://github.com/vladissta)
 
 > **Note**: This repository will be updated as the project progresses. Stay tuned for new information on assembly results and transcript annotations.
